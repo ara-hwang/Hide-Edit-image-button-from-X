@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hide 'Edit image' button from X (Twitter)",
+  "version": "1.0",
+  "description": "Hide 'Edit image' button from X (Twitter)",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
