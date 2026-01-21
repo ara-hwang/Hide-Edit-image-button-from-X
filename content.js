@@ -1,3 +1,4 @@
 const style = document.createElement("style");
-style.textContent = '[href^="/i/imagine"] { display: none !important; }';
+style.textContent =
+  '[href^="https://grok.com/imagine"] { display: none !important; }';
 document.head.appendChild(style);
